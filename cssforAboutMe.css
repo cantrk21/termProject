@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, yellow, red);
+}
+h1{
+    color: black;
+}
+header {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.biography {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: orange;
+    padding: 5px;
+    font-style: italic;
+}
+.biography img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.biography div {
+    max-width: 600px;
+}
+h2 {
+    color: #333;
+    text-decoration: underline;
+}
+.academic-interests {
+    margin-top: 40px;
+    background-color: #0b0;
+    padding: 5px;
+    font-style: italic;
+}
+.button-container {
+    margin-top: 40px;
+    text-align: center;
+    color: deepskyblue;
+}
+#Buttonforpage2 {
+    background-color: #000088;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#Buttonforpage2:hover {
+    background-color: #0000bf;
+}
