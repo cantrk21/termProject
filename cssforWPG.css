@@ -28,10 +28,15 @@ header {
 
 .Images img {
     width: 100px;
-    height: auto;
+    /* İstediğiniz genişlik */
+    height: 100px;
+    /* İstediğiniz yükseklik */
     object-fit: contain;
+    /* İçeriği çerçeveye göre sığdırır */
     border: 1px solid #ccc;
     border-radius: 5px;
+    display: block;
+    /* Varsayılan olarak elementin doğru görünmesini sağlar */
 }
 
 .Input-and-Text,
