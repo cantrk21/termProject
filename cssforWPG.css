@@ -1,5 +1,8 @@
 body {
     background-color: orange;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -18,8 +21,9 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px 10px;
-    /* row-gap and column-gap combined */
-    height: 50vh;
+    /* Row-gap ve column-gap için birleşik kullanım */
+    height: auto; /* Dinamik yükseklik */
+    padding: 10px;
 }
 
 .Images img {
@@ -43,7 +47,6 @@ header {
     margin-bottom: 20px;
     flex-direction: row;
     gap: 10px;
-    /* Added for consistent spacing */
 }
 
 .Buttons {
@@ -85,10 +88,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 50%;
-    /* Adjusted for better alignment */
-    margin-top: -8%;
-    /* Adjusted for better alignment */
+    margin: 0 auto;
     gap: 15px;
 }
 
@@ -102,4 +102,49 @@ header {
 .hearts img {
     width: 60px;
     height: auto;
+}
+
+/* Mobil Cihazlar İçin Media Query */
+@media (max-width: 768px) {
+    .Images img {
+        width: 80px;
+    }
+
+    .Input-and-Text {
+        flex-direction: column;
+    }
+
+    #SubmitButton,
+    #ResetButton {
+        width: 120px;
+    }
+
+    .Hearts {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .score-container,
+    .lives-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .Images img {
+        width: 60px;
+    }
+
+    .Input-and-Text {
+        gap: 5px;
+    }
+
+    #SubmitButton,
+    #ResetButton {
+        width: 100px;
+    }
+
+    header {
+        padding: 10px;
+    }
 }
