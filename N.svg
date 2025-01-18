@@ -12,40 +12,27 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  
+  <!-- Font eklemeyi unutmayın, font dosyasını kendinize göre ayarlayın -->
   <style>
     @font-face {
       font-family: 'Niagara Solid';
       src: url('https://example.com/niagara-solid.woff2') format('woff2');
     }
   </style>
-  <defs
-     id="defs1">
-    <rect
-       x="336.34214"
-       y="497.31523"
-       width="5.2348972"
-       height="620.33531"
-       id="rect2" />
+
+  <defs id="defs1">
+    <rect x="336.34214" y="497.31523" width="5.2348972" height="620.33531" id="rect2"/>
   </defs>
-  <g
-     inkscape:label="Katman 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264144"
-       id="rect1"
-       width="210"
-       height="297"
-       x="0"
-       y="0" />
-    <text
-       xml:space="preserve"
-       style="font-family:'Niagara Solid';font-size:287.174px;text-anchor:start;fill:#000000;"
-       x="36.681995"
-       y="230"
-       id="text1"
-       transform="scale(1.3405196,0.74597939)">
-       <tspan sodipodi:role="line" id="tspan1" x="36.681995" y="230">N</tspan>
+
+  <g inkscape:label="Katman 1" inkscape:groupmode="layer" id="layer1">
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.264144" id="rect1" width="210" height="297" x="0" y="0" />
+    
+    <!-- N harfi için metin, fontu da burada ayarladık -->
+    <text xml:space="preserve"
+          style="font-family:'Niagara Solid'; font-size:287.174px; text-anchor:start; fill:#000000; font-weight:normal;"
+          x="36.681995" y="230" id="text1" transform="scale(1.3405196,0.74597939)">
+      <tspan sodipodi:role="line" id="tspan1" x="36.681995" y="230">N</tspan>
     </text>
   </g>
 </svg>
