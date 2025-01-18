@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    viewBox="0 0 210 297"
    width="100%"
    height="100%"
    preserveAspectRatio="xMidYMid meet">
-  <defs
-     id="defs1">
-    <rect
-       x="336.34214"
-       y="497.31523"
-       width="5.2348972"
-       height="620.33531"
-       id="rect2" />
-  </defs>
   <g
-     id="layer1"
-     inkscape:label="Katman 1"
-     inkscape:groupmode="layer">
+     id="layer1">
     <!-- Arkaplan Dikdörtgen -->
     <rect
        style="fill:#ffffff;fill-opacity:1;"
@@ -31,9 +18,9 @@
     <!-- Metin -->
     <text
        xml:space="preserve"
-       style="font-family:'Niagara Solid'; font-size:100px; fill:#000000; text-anchor:middle;"
+       style="font-family:'Arial Black'; font-size:150px; fill:#000000; text-anchor:middle;"
        x="105"
-       y="150"
+       y="170"
        id="text1">N</text>
   </g>
 </svg>
