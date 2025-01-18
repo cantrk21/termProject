@@ -31,7 +31,7 @@
     <!-- Metin -->
     <text
        xml:space="preserve"
-       style="font-family:'Niagara Solid'; font-size:100px; fill:#000000; text-anchor:middle;"
+       style="font-family:'Niagara Solid'; font-size:200px; fill:#000000; text-anchor:middle;"
        x="105"
        y="150"
        id="text1">N</text>
