@@ -39,7 +39,7 @@
        y="497.31523"
        width="5.2348972"
        height="620.33531"
-       id="rect2" />
+       id="rect2" /> 
   </defs>
   <g
      inkscape:label="Katman 1"
@@ -53,16 +53,19 @@
        x="8.0572548e-08"
        y="0" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:287.174px;font-family:'Niagara Solid';-inkscape-font-specification:'Niagara Solid Condensed';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.337059"
-       x="36.681995"
-       y="36.681995"
-       id="text1"
-       transform="scale(1.3405196,0.74597939)"><tspan
+      xml:space="preserve"
+      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:287.174px;font-family:'Niagara Solid';-inkscape-font-specification:'Niagara Solid Condensed';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.337059"
+         x="105"  <!-- Merkezi X -->
+         y="148.5"  <!-- Merkezi Y -->
+         id="text1"
+         transform="scale(1.3405196,0.74597939)">
+      <tspan
          sodipodi:role="line"
          id="tspan1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:287.174px;font-family:'Niagara Solid';-inkscape-font-specification:'Niagara Solid Condensed';stroke-width:0.337061"
          x="36.681995"
-         y="36.681995">N</tspan></text>
+         y="299.60611">N</tspan>
+      </text>
+
   </g>
 </svg>
